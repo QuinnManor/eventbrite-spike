@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "apples"
+version = "0.1.0"
+description = ""
+authors = ["Matthew Quinn <matthewquinn.personal@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+numpy = "^1.16"
+ipython = "^7.4"
+eventbrite = "^3.3"
+pip = "^19.0"
+jupyter = "^1.0"
+tqdm = "^4.31"
+pandas = "^0.24.2"
+fuzzywuzzy = "^0.17.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
